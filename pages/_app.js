@@ -1,7 +1,5 @@
-import '../styles/globals.css'
+/* eslint-disable react/display-name */
+/* eslint-disable import/no-anonymous-default-export */
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
-}
-
-export default MyApp
+export default ({ Component, pageProps }) => <Component {...pageProps} />;
