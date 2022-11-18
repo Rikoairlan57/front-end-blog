@@ -1,7 +1,7 @@
 import { Container, Row, Col, Media, Image, Card } from "react-bootstrap";
 import Navbar from "components/Navbar";
 
-export default function Home() {
+const Home = () => {
   return (
     <Container>
       <Navbar />
@@ -118,4 +118,6 @@ export default function Home() {
       </footer>
     </Container>
   );
-}
+};
+
+export default Home;
