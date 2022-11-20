@@ -3,7 +3,6 @@ import { Row, Col, Media, Image } from "react-bootstrap";
 const AuthorIntro = () => (
   <Row>
     <Col md="8">
-      {/* AUTHOR INTRO STARTS */}
       <Media className="mb-4 admin-intro">
         <Image
           roundedCircle
@@ -21,7 +20,6 @@ const AuthorIntro = () => (
           </p>
         </Media.Body>
       </Media>
-      {/* AUTHOR INTRO ENDS */}
     </Col>
   </Row>
 );
