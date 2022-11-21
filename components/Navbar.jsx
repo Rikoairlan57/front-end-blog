@@ -5,7 +5,7 @@ const BlogNavbar = () => {
   return (
     <Navbar className="fj-navbar fj-nav-base" bg="transparent" expand="lg">
       <Navbar.Brand className="fj-navbar-brand">
-        <Link href="/">Filip-Jerga</Link>
+        <Link href="/">Riko Airlan Ramadhan</Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
