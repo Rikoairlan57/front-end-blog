@@ -1,4 +1,4 @@
-import { Row, Col, Card, Image, Media, CardGroup } from "react-bootstrap";
+import { Row, Col, Card, Image, CardGroup } from "react-bootstrap";
 
 const AuthorIntro = () => (
   <Row>
@@ -12,7 +12,7 @@ const AuthorIntro = () => (
           src="https://avatars.githubusercontent.com/u/79613927?v=4"
           alt="Generic placeholder"
         />
-        <Card className="p-4">
+        <Card className="p-4 ">
           <h5 className="font-weight-bold mb-0">Hello Friends,</h5>
           <p className="welcome-text">
             My name is Riko airlan and I am an experienced software engineer and
