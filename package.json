@@ -12,7 +12,7 @@
     "@sanity/block-content-to-react": "^3.0.0",
     "@sanity/client": "^3.4.1",
     "bootstrap": "^5.2.2",
-    "highlight": "^0.2.4",
+    "highlight.js": "^10.0.3",
     "moment": "^2.29.4",
     "next": "13.0.3",
     "react": "18.2.0",
