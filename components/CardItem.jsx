@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Card } from "react-bootstrap";
 import Link from "next/link";
 import { urlFor } from "lib/api";
@@ -22,7 +23,9 @@ const CardItem = ({ title, subtitle, image, date, author, link }) => {
           </div>
         </Card.Header>
         <div className="view overlay">
-          <Card.Img src={urlFor(image).height(300).url()} />
+          <Card.Img
+            src={urlFor(image).height(300).crop("center").fit("clip").url()}
+          />
         </div>
         <Card.Body>
           <Card.Title className="card-main-title">{title}</Card.Title>
